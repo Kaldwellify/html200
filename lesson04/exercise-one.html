@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Exercise 1</title>
+  </head>
+  <body>
+    <script>
+      function getNumber() {
+        let numberToSquare = prompt("What number would you like to square?");
+        let text = " squared = ";
+        function mathSquared(numberEntered) {
+          return numberEntered * numberEntered;
+        }
+        alert(numberToSquare + text + mathSquared(numberToSquare));
+      }
+    </script>
+    <button onclick="getNumber()">Click Me to Square a Number!</button>
+  </body>
+</html>
